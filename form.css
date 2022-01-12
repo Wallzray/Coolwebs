@@ -1,0 +1,73 @@
+.heading1{
+    text-shadow: 3px 5px goldenrod;
+    font-size: 50px;
+}
+   
+body{
+    padding: 0;
+    margin: 0;
+    background:  rgb(164, 91, 233)
+}
+.line{
+    background-color: gold;
+}
+.main{
+    border: firebrick solid 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 20cm;
+}
+.first{
+    border: fuchsia solid 5px ;
+    flex-basis: 20% ;
+    box-shadow: 5px 5px snow;
+    height: 10cm;
+}
+.second{
+    border: hotpink solid 5px;
+    flex-basis: 55%;
+    box-shadow: 3px 5px 6px goldenrod;
+    height: 18cm;
+}
+.third{
+    border: burlywood solid 5px;
+    flex-basis: 20%;
+    box-shadow: 5px 5px snow;
+    height: 10cm;
+}
+.im1{
+    border-radius: 50%;
+}
+ .quicklinks{ 
+    background: rgb(218, 209, 158);
+    color: blue;
+    display: flex;
+    list-style-type: none;
+    
+} 
+
+.quicklinks a { 
+    color: blue;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.quicklinks a:hover{
+    color: whitesmoke;
+    font-style: oblique;
+    font-size: 25px;
+}
+.box-model{
+    border: black solid 2.5px;
+}
+.blue-button{
+    background-color: blue;
+    padding: 20px 40px 20px 40px;
+    margin: 15px;
+}
+.pink-button{
+    background-color: pink;
+    padding: 20px 40px 20px 40px;
+    margin: 15px;
+}
