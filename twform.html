@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first form</title>
+    <style>
+      form{
+        background-color: silver;
+        font: icon;
+        border-top-color: green;
+        border-right-color: green;
+        border-bottom-color: blue;
+        border-left-color: blue;
+      }
+      body{
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+</head>
+<body>
+    <form action="">
+      <fieldset enabled autocomplete="on" method="get" target="_blank"></fieldset>>
+              <legend type="">Sign up</legend>
+    <h3>Personal information</h3>
+      <lable>First Name</lable>
+        <input type="text" name="Firstname">
+      <lable>Last Name</lable>
+        <input type="text" name="Lastname"><br><br>
+    <h4>Desribe your self briefly </h4>
+        <textarea style="color: blue;" size=10rows placeholder="Enter text" pattern >
+            Type something...
+        </textarea><br>
+    <h4>Favorite color</h4>
+        <label>Color</label>
+          <input type="color"><br>
+    <h4>Select Your Gender</h4>
+        <input type="radio" value="Male" name="Gender" required>
+      <label>Male</label>
+        <input type="radio" value="Female" name="Gender">
+      <label>Female</label><br>
+      <h4>Date of birth</h4>
+        <input type="date" name="date" value=date>
+    <h3>Profession</h3>
+      <label>Select your Occupation</label>
+        <select name="Occupation">
+        <option value="choose">Choose</option>
+        <option value="Marketing">Marketing Manager</option>
+        <option value="Farmer">Farmer</option>
+        <option value="Teacher">Teacher</option><br>
+        </select>
+    <h4>Property</h4>
+        <input type="checkbox" value=car name="property">
+      <label>Car</label><br>
+        <input type="checkbox" value=appartment name="property">
+      <label>Appartment</label><br>
+        <input type="checkbox" value=Televisionset name="property">
+      <label>Television Set</label><br>
+        <input type="checkbox" value=Smartphone name="property">
+      <label>Smartphone</label><br>
+        <input type="checkbox" value=Personalcomputer name="property">
+      <label>Personal Computer</label><br>
+        <input type="checkbox" value=Farm name="property">
+      <label>Farm</label><br>
+    <h4>Sources of Income</h4>
+      <label>Choose</label>
+        <input type="number" name="Course"value=number min=0 step=5><br>
+    <h4>Authenticate</h4>
+      <label>Password</label>
+        <input type="password" name="Password"><br><br>
+        <input type="reset" value=Cancel>
+        <input type="submit" value=Save>
+</fieldset>
+</form>
+</body>
+</html>
