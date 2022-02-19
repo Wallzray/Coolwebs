@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(back.jpg);
+}
+.history{
+    display: flex;
+    background-color: rgba(28, 120, 212, 0.808);
+    color: snow;
+    align-content: space-between;
+}
+.num{
+    padding-right: 200px;
+    padding-top: 10px;
+}
+.date{
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.detail{
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.hist1{
+    background-color: beige;
+    color: blue;
+    display: flex;
+    align-content: space-between;
+}
+.head{
+    padding-left: 500px;
+    background-color: beige;
+    color: blue;
+}
+.head1{
+    padding-left:  100px;
+}
+.head2{
+    padding-left: 600px;
+    background-color: beige;
+    color: blue;
+}
+.head3{
+    padding-left: 50px;
+}
+.car1{
+    font-size: 20px;
+}
+button{
+    border-radius: 10px;
+    background-color: purple;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    background-color: pink;
+}
+input{
+    width: 250px;
+    height: 25px;
+    background-color: azure;
+}
+.detail1{
+    padding-left: 120px;
+    padding-top: 10px;
+}
+.detail2{
+    padding-left: 180px;
+    padding-top: 10px;
+}
+.detail3{
+    padding-left:95px;
+    padding-top: 10px;
+}
+.detail4{
+    padding-left:175px;
+    padding-top: 10px;
+}
+ .detail5{
+    padding-left: 190px;
+    padding-top: 10px;
+ }
+ .special{
+     padding-left: 50px;
+     padding-top: 10px;
+ }

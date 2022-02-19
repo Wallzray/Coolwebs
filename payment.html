@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+   <center> <b style="color: blue;">Enjoy Lifetime Special Premium Membership at a one-time pay!</b>
+    <button class="sp1"> Select Billing Option<br>
+        <form fieldset= "enabled">
+        <label>Mobile Money</label><br>
+            <img src="airtelmon.jpg" width="100px" height="100px"><img src="mtnmon.png" width="100px" height="100px"><br>
+            <input type="radio" name="payment" value="Mobilemoney">
+            <label style="font-style: italic;">Mobile Number</label>
+        <input type="tel" name="mobno" ><br><br>
+        
+        <img src="masterc.png" alt="Mastercard width="100px" height="100px"><br>
+        <input type="radio" name="payment" value="Creditcard">
+        <label>Credit Card</label><br>
+        <h3 style="font-style: italic;">Credit Card Details</h3>
+        <input type="number" name="cardnumber" placeholder="Enter card number"><br><br>
+        <select style="font-size: 20px; ">
+            <option>Select Your Card Type</option>
+            <option>Visa</option>
+            <option>Mastercard</option>
+            <option>American Express</option>
+            <option>Discover</option>
+            <option>UnionPay</option>
+        </select><br><br>
+        <input type="date" name="expirationdate" placeholder="Expiration Date"><br><br>
+        <input type="number" name="CSC" placeholder="Enter security code"><br><br>
+        <input type="button" name="payment"  onclick=" Proceed_to_submit"><br><br>
+        <img src="visa.jpg" width="170px" height="100px"><br>
+    </form></button><br>
+       
+                
+        <button class="signupprem"><a href="dashboards.html">Submit</a></button></center>
+       
+    </body>
+</html>

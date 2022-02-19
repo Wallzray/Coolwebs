@@ -1,0 +1,54 @@
+body{
+height: 200px;
+background-color: plum;
+background-image: linear-gradient(plum,brown);
+padding: 0;
+margin: 0;
+}
+#img{
+    border-radius: 40px;
+}
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+li{
+    list-style-type: none;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: plum;
+    border-color: plum;
+}
+a{
+    text-decoration:none
+}
+a:hover{
+    background-color: rgb(245, 115, 115);
+}
+.signup{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: plum;
+    border-color: plum;
+}
+.sus{
+    background-color: blue;
+    border-radius: 20px;
+    border-color: red;   
+    padding: 10px;
+    align-self: center;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.footer{
+    background-color: plum;
+}
